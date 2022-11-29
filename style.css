@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: rgba(0, 255, 255, 0.047);
+}
+
+#todayWeather {
+    justify-content: center;
+}
+
+
+
+#bodyCity {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+#nextDaysWeather {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border: 2px solid rgb(190, 181, 167);
+    background-color: antiquewhite;
+}
