@@ -10,9 +10,10 @@
 </head>
 <body>
 
-            <div class="shadow p-3 mb-5 bg-body rounded">
+            <div class="shadow mb-3 bg-body rounded">
                 <nav class="navbar" style="background-color: #fd7d1459;">
                     <ion-icon name="rainy-outline" size="large"></ion-icon>
+                    <p id="clock"></p>
                     <a class="navbar-brand">
                         Your Weather Today</a>
                     <form class="form-inline">
@@ -29,12 +30,21 @@
                         <h4>Today</h4>
                         <img src="" class="card-img-top" alt="..." id="imageCurrent">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="card-title"></h5>
+                          <p class="card-text"></p>
+
+                          <div id="additional">
+                            <ion-icon name="sunny-outline"></ion-icon>UV Index: <i id="uvCurrent"></i>
+                          <ion-icon name="arrow-down-outline"></ion-icon>Pressure: <i id="pressureToday"></i>
+                          <ion-icon name="shuffle-outline"></ion-icon>Wind kph: <i id="windToday"></i>
+                          <ion-icon name="water-outline"></ion-icon>Humidity: <i id="humidityToday"></i>
+                        </div>
                         </div>
                       </div>
                 </div>
             </div>
+
+
             <div id="nextDaysWeather">
                 <div class="container text-center">
                     <div class="row">
@@ -46,6 +56,12 @@
                             <div class="card-body">
                               <h5 class="card-title1"></h5>
                               <p class="card-text1"></p>
+                              <div id="additional">
+                                <ion-icon name="sunny-outline"></ion-icon>UV Index: <i id="uv1"></i>
+                                <ion-icon name="arrow-down-outline"></ion-icon>Pressure: <i id="pressure1"></i>
+                          <ion-icon name="shuffle-outline"></ion-icon>Wind kph: <i id="wind1"></i>
+                          <ion-icon name="water-outline"></ion-icon>Humidity: <i id="humidity1"></i>
+                              </div>
                             </div>
                           </div>
 
@@ -57,6 +73,12 @@
                             <div class="card-body">
                               <h5 class="card-title2"></h5>
                               <p class="card-text2"></p>
+                              <div id="additional">
+                              <ion-icon name="sunny-outline"></ion-icon>UV Index: <i id="uv2"></i>
+                              <ion-icon name="arrow-down-outline"></ion-icon>Pressure: <i id="pressure2"></i>
+                              <ion-icon name="shuffle-outline"></ion-icon>Wind kph: <i id="wind2"></i>
+                              <ion-icon name="water-outline"></ion-icon>Humidity: <i id="humidity2"></i>
+                            </div>
                             </div>
                           </div>
                       </div>
@@ -68,6 +90,12 @@
                             <div class="card-body">
                               <h5 class="card-title3"></h5>
                               <p class="card-text3"></p>
+                              <div id="additional">
+                              <ion-icon name="sunny-outline"></ion-icon>UV Index: <i id="uv3"></i>
+                              <ion-icon name="arrow-down-outline"></ion-icon>Pressure: <i id="pressure3"></i>
+                              <ion-icon name="shuffle-outline"></ion-icon>Wind kph: <i id="wind3"></i>
+                              <ion-icon name="water-outline"></ion-icon>Humidity: <i id="humidity3"></i>
+                              </div>
                             </div>
                           </div>
                       </div>
